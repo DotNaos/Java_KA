@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Document</title>
+</head>
+<body>
+
+
+<fieldset>
+    <legend>Google Suche</legend>
+    <!-- Search  on google based on input -->
+    <form action='https://www.google.com/search' method='get'>
+
+    <label for='such'>Suchbegriff</label>
+    <input type='text' name='q' id='such'>
+
+    <br>
+
+    <label for='treff'>Trefferanzahl</label>
+    <input type='range' name='num' id='anz'>
+
+    <br>
+
+    <label for='neu'>Neuer Tab</label>
+    <!-- Outputs value 1 when checked -->
+    <input type='checkbox' name='newwindow' id='neu'
+    value='1'
+    >
+
+    <br>
+
+    <!-- Dropdown -->
+    <label for='such'>Suchmaschine</label>
+    <select name='lr' id='suchmaschine'>
+        <option value='lang_en'>en</option>
+        <option value='lang_es'>es</option>
+        <option value='lang_ar'>ar</option>
+    
+
+    <input type='submit' value='Suche Starten'>
+
+    </form>
+</fieldset>
+
+</body>
+</html>
